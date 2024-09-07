@@ -1,0 +1,305 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+    color: black; 
+    margin: 0;
+    padding: 0;    
+    
+}
+
+nav {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+
+nav ul.menu {
+    list-style-type: none; 
+    padding: 15px;
+    margin: 2px;
+    display: flex; 
+    justify-content: center; 
+}
+
+
+nav ul.menu li {
+    margin: 0 15px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 50;
+}
+
+
+nav ul.menu li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s; 
+}
+
+nav ul.menu li a:hover {
+    background-color:black;
+    border-radius: 5%; 
+}
+
+header h1.titulo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color:black;
+    
+}
+
+header h2.additional-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color:black;
+}
+
+header p.header-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    color:black;
+}
+
+header {
+    position: relative;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+        url(https://moodymoppet.com/wp-content/uploads/2018/08/dark-2017.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px 0; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+
+}
+
+header h1.titulo {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+section h2.galeria {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color:black;
+    font-size: 3em;
+}
+
+.imagenes {
+    height: 500px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 20px;
+    
+
+}
+
+.contenedor-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section h2.sinopsis {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color:black;
+    font-size: 3em;
+}
+
+section p.parrafo-ss {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color:black;
+    text-align: justify;
+    
+}
+
+section h2.personajesprin {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color:black;
+    font-size: 3em;
+}
+
+.pp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px;
+    background-color:#d98b19;
+    color: black;
+    border-radius: 10px;
+    list-style:none;
+    text-align: center;
+}
+
+.pp1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px;
+    background-color:#e79f31;
+    color: black;
+    border-radius: 10px;
+    list-style:none;
+    text-align: center;
+}
+
+.pp2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px;
+    background-color: #fdb73e;
+    color: black;
+    border-radius: 10px;
+    list-style:none;
+    text-align: center;
+}
+
+.pp3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px;
+    background-color: #fed48b;
+    color: black;
+    border-radius: 10px;
+    list-style:none;
+    text-align: center;
+}
+
+.pp4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px;
+    background-color:#feedcf;
+    color: black;
+    border-radius: 10px;
+    list-style:none;
+    text-align: center;
+}
+
+section h2.mas-info {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color:black;
+    font-size: 3em;
+}
+
+section.ultimo a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    list-style:none;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff; 
+    background-color: black;
+    font-weight: bold; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s; 
+}
+
+section.ultimo a:hover {
+    background-color:rgba(0, 255, 255, 0.2);
+    border-radius: 20px; 
+}
+
+
+
+

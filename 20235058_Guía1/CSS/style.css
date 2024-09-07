@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafb;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+.main-title{
+    font-family: 'Monserrat', sans-serif;
+    color: #2980b9;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.subtitle{
+    font-family: 'Monserrat';
+    color: #3498db;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.intro-text{
+    font-size: 1.2em;
+    color: #34495e;
+    text-align: center;
+}
+.country-section{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+.country-image{
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.country-section h3{
+    color: #e74c3c;
+    font-size: 1.7em;
+}
