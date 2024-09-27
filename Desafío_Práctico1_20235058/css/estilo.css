@@ -1,0 +1,346 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	line-height: 1.6;
+}
+
+header {
+	background-color: #323a45;
+	color: #fff;
+	padding: 20px 0;
+	border-bottom: 2px solid #0056b3;
+}
+
+.envoltorio {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.mbar {
+	height: 2rem;
+	height: 2rem;
+	float: right;
+	display: none;
+}
+
+.logo img {
+	float: left;
+}
+nav {
+	position: relative;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+	justify-content: flex-end;
+}
+
+nav ul li {
+	position: relative;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	display: block;
+}
+
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background-color: #0056b3;
+	border-radius: 4px;
+}
+
+nav ul li ul li {
+	width: 200px;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul li ul li a {
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	background-color: #0056b3;
+	transition: background-color 0.3s;
+}
+
+.contenedor-slider img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.intro {
+	background-color: #12488c;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.intro h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.intro p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.intro .boton {
+	background-color: #00315e;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.intro .boton:hover {
+	background-color: #0056b3;
+}
+
+.servicios {
+	background-color: #fff;
+	padding: 50px 0;
+}
+
+.envoltorio2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.grid {
+	width: 30%;
+	float: left;
+	margin: 1.5%;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	background-color: #fff;
+}
+
+.grid img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.grid h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #12488c;
+	font-weight: lighter;
+}
+
+.grid p {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.grid .botoncito {
+	background-color: rgba(18,72,140,255);
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.grid .botoncito:hover {
+	background-color: #0056b3;
+}
+
+.testimonios {
+	background-color: #edeae6;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.testimonios h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.testimonios p {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+footer {
+	background-color: #323a45;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 30px;
+}
+
+footer p {
+	font-size: 0.9rem;
+}
+
+.envoltorio2::after, .grid::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.envoltorio::after, .grid::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1 {
+	text-decoration: none;
+}
+
+.envoltorio h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+.envoltorio h1 a:hover {
+	color: #AAA;
+    transform: scale(1.5);
+}
+
+
+/* Estilo del formulario */
+.ofertas{
+	background: white;
+	padding: 20px; 
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+	margin: 20px auto; 
+	max-width: 600px;
+}
+
+.h2formulario {
+	text-align: center; 
+	color: #12488c; 
+}
+
+label {
+	display: block; 
+	margin: 10px 0 5px; 
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+select {
+	width: 100%; 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+}
+
+input[type="submit"] {
+	background-color:#0056b3; 
+	color: white; 
+	padding: 10px 15px; 
+	border: none; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	font-size: 16px; 
+	margin-top: 10px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+input[type="submit"]:hover {
+	background-color:#12488c; 
+}
+
+video {
+	width: 100%;
+}
+
+.liwi {
+	text-align: center;
+}
+
+@media only screen and (max-width:700px) {
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	nav ul {
+		width: 100%;
+		background: rgba(255,255,255, 0.3) ;
+		border-radius: 5px;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		z-index: 2;
+	}
+
+	nav ul{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.logo img {
+		float: right;
+		margin-top: 18px;
+	}
+
+	.mbar {
+		height: 5rem;
+		width: 5rem;
+		float: left;
+		display: block;
+
+	}
+
+	#menulista {
+		overflow: hidden;
+		transition: 0.3s;
+	}
+
+	.envoltorio2 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.grid {
+		width: 95%;
+		float: left;
+		margin: 1.5%;
+		text-align: center;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		padding: 20px;
+		background-color: #fff;
+	}
+	
+}
